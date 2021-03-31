@@ -1,11 +1,11 @@
 const { rockets } = require('../data');
 
-class Rockets {
+class Rocket {
   static all() {
     return rockets;
   }
 }
 
 module.exports = {
-  Rockets,
+  Rocket,
 };
