@@ -1,8 +1,18 @@
 const { payloads } = require('../data');
 
 class Payload {
-  static all() {
+  static fetchPayloadData() {
     return payloads;
+  }
+
+  static fetchSinglePayload(id) {
+    let payload = {};
+
+    payloads.forEach(p => {
+      if (id === p.payload_id) payload = p;
+    });
+
+    return payload;
   }
 }
 

@@ -1,15 +1,15 @@
 # spacex-graphql-apollo
 
-To run locally:
+To run locally, execute these commands starting from the root directory:
 
 * `npm i`
 * `cd src`
 * `node index.js`
 * Visit `localhost:4000` in your browser
 
-You should see the Apollo Playground GUI
+You should see the GraphQL Playground GUI
 
-Paste the following into the left panel and click the Play button in the center:
+Paste the following query into the left panel and click the Play button in the center:
 ```
 {
   launches {
