@@ -9,7 +9,7 @@ To run locally, execute these commands starting from the root directory:
 
 You should see the GraphQL Playground GUI
 
-Paste the following query into the left panel and click the Play button in the center:
+Copy and paste the following query into the left panel and click the Play button in the center:
 ```
 {
   launches {
