@@ -1,7 +1,9 @@
-const { Launch } = require('../models/Launch');
-const { Rocket } = require('../models/Rocket');
-const { Payload } = require('../models/Payload');
-const { LaunchSite } = require('../models/LaunchSite');
+const {
+  Launch,
+  Rocket,
+  Payload,
+  LaunchSite,
+} = require('../models');
 
 const launchesResolvers = {
   Query: {
