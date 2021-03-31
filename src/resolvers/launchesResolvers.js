@@ -3,7 +3,6 @@ const { Rocket } = require('../models/Rocket');
 const { Payload } = require('../models/Payload');
 const { LaunchSite } = require('../models/LaunchSite');
 
-// Resolvers define the technique for fetching the types defined in the schema.
 const launchesResolvers = {
   Query: {
     launches: () => Launch.fetchLaunchData(),
