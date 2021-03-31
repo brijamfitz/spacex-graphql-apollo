@@ -1,11 +1,11 @@
 const { launchSites } = require('../data');
 
-class LaunchSites {
+class LaunchSite {
   static all() {
     return launchSites;
   }
 }
 
 module.exports = {
-  LaunchSites,
+  LaunchSite,
 };
