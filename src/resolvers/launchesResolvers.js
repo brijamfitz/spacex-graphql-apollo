@@ -20,4 +20,4 @@ const launchesResolvers = {
 
 module.exports = {
   launchesResolvers,
-}
+};

@@ -21,4 +21,4 @@ const basicLogging = {
 
 module.exports = {
   basicLogging,
-}
+};
