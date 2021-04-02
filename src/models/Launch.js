@@ -5,7 +5,7 @@ class Launch {
     return launches;
   }
 
-  static fetchSingleLaunch(id) {
+  static fetchLaunchById(id) {
     let launch = {};
 
     launches.forEach(l => {

@@ -5,7 +5,7 @@ class Payload {
     return payloads;
   }
 
-  static fetchSinglePayload(id) {
+  static fetchPayloadById(id) {
     let payload = {};
 
     payloads.forEach(p => {

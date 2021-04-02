@@ -5,7 +5,7 @@ class Rocket {
     return rockets;
   }
 
-  static fetchSingleRocket(id) {
+  static fetchRocketById(id) {
     let rocket = {};
 
     rockets.forEach(r => {

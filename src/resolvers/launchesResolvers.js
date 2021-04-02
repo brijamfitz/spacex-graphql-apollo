@@ -11,10 +11,10 @@ const launchesResolvers = {
     rockets: () => Rocket.fetchRocketData(),
     payloads: () => Payload.fetchPayloadData(),
     launchSites: () => LaunchSite.fetchLaunchSiteData(),
-    launch: (_, { flight_number }) => Launch.fetchSingleLaunch(flight_number),
-    rocket: (_, { rocket_id }) => Rocket.fetchSingleRocket(rocket_id),
-    payload: (_, { payload_id }) => Payload.fetchSinglePayload(payload_id),
-    launchSite: (_, { site_id }) => LaunchSite.fetchSingleLaunchSite(site_id),
+    launch: (_, { flight_number }) => Launch.fetchLaunchById(flight_number),
+    rocket: (_, { rocket_id }) => Rocket.fetchRocketById(rocket_id),
+    payload: (_, { payload_id }) => Payload.fetchPayloadById(payload_id),
+    launchSite: (_, { site_id }) => LaunchSite.fetchLaunchSiteById(site_id),
   },
 };
 

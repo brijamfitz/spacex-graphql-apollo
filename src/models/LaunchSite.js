@@ -5,7 +5,7 @@ class LaunchSite {
     return launchSites;
   }
 
-  static fetchSingleLaunchSite(id) {
+  static fetchLaunchSiteById(id) {
     let site = {};
 
     launchSites.forEach(ls => {
